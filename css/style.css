@@ -1,0 +1,26 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: #424544;
+    color:#70D6C3;
+}
+h1, h2, h3, h4, h5, h6{
+        font-family:'Grenze Gotisch';
+        font-size: 40pt;
+}
+
+header{
+    text-align: center;
+}
+#hero, footer{
+    color: #70D6C3;
+    border: 2px solid #57618F;
+    background-color: #11422B;
+    text-align: center;
+    padding: 10px;
+}
+#hero img{
+    width: 400px;
+}
+#bio{
+    text-align: center;
+}
