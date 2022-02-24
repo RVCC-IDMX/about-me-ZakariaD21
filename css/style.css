@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6{
 
 header{
     text-align: center;
+    color: #11422B;
 }
 #hero, footer{
     color: #70D6C3;
@@ -23,11 +24,13 @@ header{
 }
 #bio{
     text-align: center;
+    color: #11422B;
 }
 /* Hobbies List*/
 
 #hobbies h2{
     text-align: center;
+    color: #11422B;
 }
 
 #hobbies ul{
@@ -50,6 +53,7 @@ header{
 /*Photo Gallery*/
 #gallery{
     text-align: center;
+    color: #11422B;
 }
 #gallery img{
     max-width: 90%;
@@ -58,4 +62,19 @@ header{
     color: black;
     font-style: italic;
     padding: 1rem;
+}
+/*Article*/
+article h2{
+    text-align: center;
+    color: #11422B;
+}
+
+article p{
+    color: black;
+    padding: 2rem;
+    padding-top: 0rem ;
+    margin: 1px;
+    text-align: justify;
+    font-style:normal;
+
 }
