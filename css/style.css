@@ -38,10 +38,24 @@ header{
     box-shadow: 5px 3px 15px chartreuse;
 }
 #hobbies ul li{
-    margin-left: 2rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
     color:darkolivegreen;
     padding: 0.2rem;
 }
 #hobbies ul li:nth-child(even){
     color: rgb(136, 37, 37);
+    
+}
+/*Photo Gallery*/
+#gallery{
+    text-align: center;
+}
+#gallery img{
+    max-width: 90%;
+}
+#gallery figcaption{
+    color: black;
+    font-style: italic;
+    padding: 1rem;
 }
