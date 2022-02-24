@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto Slab', serif;
-    background-color: #424544;
-    color:#70D6C3;
+    background-color:darkgrey;
+    color:aliceblue;
 }
 h1, h2, h3, h4, h5, h6{
         font-family:'Grenze Gotisch';
@@ -23,4 +23,25 @@ header{
 }
 #bio{
     text-align: center;
+}
+/* Hobbies List*/
+
+#hobbies h2{
+    text-align: center;
+}
+
+#hobbies ul{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    box-shadow: 5px 3px 15px chartreuse;
+}
+#hobbies ul li{
+    margin-left: 2rem;
+    color:darkolivegreen;
+    padding: 0.2rem;
+}
+#hobbies ul li:nth-child(even){
+    color: rgb(136, 37, 37);
 }
