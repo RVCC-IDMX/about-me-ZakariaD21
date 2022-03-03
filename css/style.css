@@ -8,6 +8,11 @@ h1, h2, h3, h4, h5, h6{
         font-size: 40pt;
 }
 
+h2{
+    margin-top: 0ex;
+    margin-bottom: .25ex;
+}
+
 header{
     text-align: center;
     color: #11422B;
@@ -37,14 +42,14 @@ header{
 #hobbies h2{
     text-align: center;
     color: #11422B;
-}
+}sdsd
 
 #hobbies ul{
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
-    box-shadow: 5px 3px 15px chartreuse;
+    box-scchadow: 5px 3px 15px chartreuse;
 }
 #hobbies ul li{
     margin-left: 3rem;
@@ -87,13 +92,32 @@ article p{
 article p::first-letter{
     color:cornflowerblue;
     font-size: 400%;
+    padding-top: .5rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     border: 5px double black;
     float: left;
-    margin-right: 1ex;
+    margin-right: 1rem;
     margin-top: 1rem;
     background-color: khaki;   
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-image: radial-gradient(rgb(223, 202, 19),white);
 }
+
+
+/*Tablet state*/
+@media screen and (min-width: 960px){
+    figure{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
+    
+} /*end media query*/
