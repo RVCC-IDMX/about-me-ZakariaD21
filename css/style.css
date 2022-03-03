@@ -28,6 +28,12 @@ header{
 }
 /* Hobbies List*/
 
+#hobbies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #hobbies h2{
     text-align: center;
     color: #11422B;
@@ -76,5 +82,18 @@ article p{
     margin: 1px;
     text-align: justify;
     font-style:normal;
-
+}
+/*Drop caps*/
+article p::first-letter{
+    color:cornflowerblue;
+    font-size: 400%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: 5px double black;
+    float: left;
+    margin-right: 1ex;
+    margin-top: 1rem;
+    background-color: khaki;   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: radial-gradient(rgb(223, 202, 19),white);
 }
