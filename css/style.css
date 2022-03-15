@@ -49,7 +49,7 @@ header{
     margin-left: auto;
     margin-right: auto;
     padding: 1rem;
-    box-scchadow: 5px 3px 15px chartreuse;
+    box-shadow: 5px 3px 15px chartreuse;
 }
 #hobbies ul li{
     margin-left: 3rem;
@@ -118,6 +118,11 @@ article p::first-letter{
         align-items: center;
         font-size: 2rem;
         margin-left: 1rem;
+    }
+
+    #lit div{
+        max-width:100%;
+        columns: 40rem;
     }
     
 } /*end media query*/
