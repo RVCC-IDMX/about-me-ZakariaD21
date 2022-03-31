@@ -148,6 +148,56 @@
 
         </article>
 
+        
+        <section id="contact">
+
+            <h2>Reach Out To Me</h2>
+
+            <form name="contact" method="post" data-netlify="true" > 
+                
+                <fieldset>
+
+                    <legend>Contact Form:</legend>
+
+                    <label for="name">Name:</label>
+                    <input id="name" name="name" type="text" required="true"> <br>
+
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="email" required="true"> <br>
+                    
+                    <label for="phone">Phone Number (Optional):</label>
+                    <input id="phone" name="phone" type="tel"> <br>
+
+                    <label for="phone_type">Phone Type (Optional):</label>
+                    <select id="phone_type" name="phone_type">
+                        <option value="H"> Home</option>
+                        <option value="C">Cell</option>
+                        <option value="W">Work</option>
+                    </select> <br>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required="true" ></textarea>
+
+                    <fieldset>
+
+                        <legend>Would you like a reply?</legend>
+                        <ul>
+                            <li><input id="yes_reply" name="reply" type="radio" value="Yes"> <label for="yes_reply"> Yes</label> </li>
+                            <li><input id="no_reply" name="reply" type="radio" value="No" checked="true"><label for="no_reply">No</label></li>
+                        </ul>
+
+                    </fieldset>
+
+                    <input type="submit" value="Send">
+                    
+                </fieldset>
+
+            </form>
+
+        </section>
+
+    
+
     </main>
 
     <footer>
