@@ -151,6 +151,7 @@ figure{
 }
 #formElements{
     display: grid;
+    row-gap: .5em;
 }
 
 fieldset{
@@ -170,6 +171,12 @@ legend{
     font-size: 1rem;
 }
 
+#contact{
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
 #contact ul{
     list-style: none;
     border: 0px;
@@ -184,5 +191,7 @@ legend{
     background-color: #61A5ED;
     color: white;
     border: 1px solid aliceblue;
+    max-width: 400px;
+    justify-self: center;
     
 }
